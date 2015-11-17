@@ -39,13 +39,9 @@ with open('../csv/Monitoring.csv') as csvfile:
     mins.pop(0)
     maxs.pop(0)
     sums.pop(0)
-    #print(unitidcol)
 
     db = MySQLdb.connect("localhost","root","root","CSV")
     cursor = db.cursor()
-    #cursor.execute("SELECT VERSION()")
-    #data = cursor.fetchone()
-    #print "Database version : %s " % data
 
     createtable = "CREATE TABLE MONITORING " + "("+ unitidcol + " INT(20), " + begintimecol + " DATETIME NOT NULL, " + endtimecol + " DATETIME NOT NULL, " + typecol + " VARCHAR(100), " + mincol + " INT(100), " + maxcol + " INT(100), " + sumcol + " BIGINT(100)) "
     cursor.execute(createtable)

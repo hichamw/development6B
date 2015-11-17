@@ -23,22 +23,13 @@ with open('../csv/Events.csv') as csvfile:
     portcol = ports[0]
     valuecol = values[0]
 
-    print(datetime)
-    print(unitids)
     datetime.pop(0)
     unitids.pop(0)
     ports.pop(0)
     values.pop(0)
-    print(datetime)
-    print(unitids)
-
-    print(datetime[0])
 
     db = MySQLdb.connect("localhost","root","root","CSV")
     cursor = db.cursor()
-    #cursor.execute("SELECT VERSION()")
-    #data = cursor.fetchone()
-    #print "Database version : %s " % data
 
     createtable = "CREATE TABLE EVENTS " + "("+ datetimecol + " DATETIME NOT NULL, " + unitidcol + " INT(20), " + portcol + " VARCHAR(20), " + valuecol + " INT(10)) "
     cursor.execute(createtable)
