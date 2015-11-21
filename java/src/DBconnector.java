@@ -31,8 +31,10 @@ public class DBconnector {
             sql = "SELECT `UnitId` FROM `EVENTS` WHERE DateTime = \"2015-03-10 07:19:55\"";
             ResultSet rs = stmt.executeQuery(sql);
 
-            int unitid = rs.getInt("UnitId");
-            System.out.println(unitid);
+            while(rs.next()) {
+                int unitid = rs.getInt("UnitId");
+                System.out.println(unitid);
+            }
 
             rs.close();
             stmt.close();
