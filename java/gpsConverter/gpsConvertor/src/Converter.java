@@ -1,18 +1,19 @@
-import java.lang.reflect.Array;
 
 /**
  * Created by hicham on 24-11-2015.
  */
-public class mainConverter {
+public class Converter {
     public static void main(String [] args)  {
         convert(158112.767266254, 380429.127648613);
-        DatabaseConnection.dbConnection();
+        //DatabaseConnection.dbConnection();
     }
 
     public static void convert(double x, double y){
         long  startTime = System.currentTimeMillis();
+
         int rd_x_base = 155000;
         int rd_y_base = 463000;
+
         double wgs84_latitude_base = 52.15517440;
         double wgs84_longitude_base = 5.38720621;
 
@@ -44,11 +45,12 @@ public class mainConverter {
         Lpq[0][2]                    =        0.00022;
         Lpq[2][0]                    =       -0.00022;
         Lpq[5][0]                    =        0.00026;
-        double d_latitude                  = (x - rd_x_base) * 0.00001;         // dX = (X - X0) 10^5
-        double d_longitude                  = (y - rd_y_base) * 0.00001;
+        double d_latitude                  = (x - rd_x_base) * 0.00001;
+        double d_longitude                 = (y - rd_y_base) * 0.00001;
 
         int pmax = 5;
         int qmax = 4;
+
         for(int p = 0; p <= pmax; p++)
         {
             for(int q = 0; q <= qmax; q++)
@@ -60,13 +62,14 @@ public class mainConverter {
                     calc_long += Lpq[p][q] * Math.pow(d_latitude, p) * Math.pow(d_longitude, q);
                 }
             }
-
         }
+
         double wgs84_latitude  = wgs84_latitude_base + (calc_lat / 3600);
         double wgs84_longitude  = wgs84_longitude_base + (calc_long / 3600);
 
         System.out.println("lat: " + wgs84_latitude + " long: " + wgs84_longitude);
         long endTime = System.currentTimeMillis();
         System.out.println("It took: " + (endTime - startTime) + " milliseconds");
+        DatabaseConnection.storeInDB(wgs84_latitude,wgs84_longitude);
     }
 }
