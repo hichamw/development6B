@@ -45,13 +45,13 @@ with open('../csv/Monitoring.csv') as csvfile:
 
     createtable = "CREATE TABLE MONITORING " + "("+ unitidcol + " INT(20), " + begintimecol + " DATETIME NOT NULL, " + endtimecol + " DATETIME NOT NULL, " + typecol + " VARCHAR(100), " + mincol + " INT(100), " + maxcol + " INT(100), " + sumcol + " BIGINT(100)) "
     cursor.execute(createtable)
-    print(createtable)
+    #print(createtable)
 
-    #for i in xrange(1,len(datetime)):
-        #insertall = "INSERT INTO EVENTS " + "("+datetimecol+", "+unitidcol+", "+portcol+", "+valuecol+") VALUES (""'"+datetime[i]+"',"+"'"+unitids[i]+"',"+"'"+ports[i]+"',""'"+values[i]+"') "
+    for i in xrange(1,len(unitids)):
+        insertall = "INSERT INTO MONITORING " + "("+unitidcol+", "+begintimecol+", "+endtimecol+", "+typecol+", "+mincol+", "+maxcol+", "+sumcol+") VALUES (""'"+unitids[i]+"',"+"'"+begintimes[i]+"',"+"'"+endtimes[i]+"',""'"+types[i]+"',""'"+mins[i]+"',""'"+maxs[i]+"',""'"+sums[i]+"')"
         #print(insertall)
-        #cursor.execute(insertall)
-        #db.commit()
+        cursor.execute(insertall)
+        db.commit()
 
 
 
