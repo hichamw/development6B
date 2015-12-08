@@ -49,7 +49,7 @@ with open('../csv/Monitoring.csv') as csvfile:
 
     for i in xrange(1,len(unitids)):
         insertall = "INSERT INTO MONITORING " + "("+unitidcol+", "+begintimecol+", "+endtimecol+", "+typecol+", "+mincol+", "+maxcol+", "+sumcol+") VALUES (""'"+unitids[i]+"',"+"'"+begintimes[i]+"',"+"'"+endtimes[i]+"',""'"+types[i]+"',""'"+mins[i]+"',""'"+maxs[i]+"',""'"+sums[i]+"')"
-        #print(insertall)
+        print(insertall)
         cursor.execute(insertall)
         db.commit()
 
