@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/giz/www":{"nfs":true,"guestpath":"/var/www/giz/www","hostpath":"C:/Users/User/giz/www","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/User/giz","disabled":false}}}
