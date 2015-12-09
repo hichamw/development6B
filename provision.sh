@@ -55,7 +55,7 @@ sudo cat <<'EOT' > /etc/apache2/sites-available/000-default.conf
 
 EOT
 
-sudo rm -f /var/www/html/index.html
-sudo rm -f /var/www/html
+sudo rm -rf /var/www/html/index.html
+sudo rm -rf lampp
 
 sudo service apache2 restart
