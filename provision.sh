@@ -13,12 +13,15 @@ echo "mysql-server mysql-server/root_password_again password hafahtjappie123" | 
 sudo apt-get -y install mysql-server-5.6
 sudo apt-get install software-properties-common python-software-properties
 sudo add-apt-repository ppa:fkrull/deadsnakes
+sudo add-apt-repository ppa:webupd8team/java
 
 sudo apt-get -y update
 
 sudo apt-get -y install python2.7
 sudo apt-get -y install apache2
 sudo apt-get -y install git-core gcc autoconf make
+sudo apt-get -y install oracle-java8-installer
+sudo apt-get -y install maven
 
 sudo rm /etc/apache2/sites-available/000-default.conf
 sudo touch /etc/apache2/sites-available/000-default.conf
@@ -56,6 +59,6 @@ sudo cat <<'EOT' > /etc/apache2/sites-available/000-default.conf
 EOT
 
 sudo rm -rf /var/www/html/index.html
-sudo rm -rf lampp
+sudo rm -rf /var/www/html
 
 sudo service apache2 restart
