@@ -1,5 +1,10 @@
 import static spark.Spark.*;
+import spark.*;
+
+import java.math.BigDecimal;
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Sparktest {
 
@@ -9,12 +14,14 @@ public class Sparktest {
 
     public static void main(String[] args) {
 
+        staticFileLocation("/www");
+
+        ArrayList<BigDecimal> ids = new ArrayList<BigDecimal>();
         Connection conn;
         Statement stmt;
 
         try {
             conn = DriverManager.getConnection(DB_URL, USER, PASS);
-            get("/", (req, res) -> "Connecting to MySQL database");
 
             stmt = conn.createStatement();
             String query = "SELECT UnitID FROM CONNECTIONS";
@@ -22,16 +29,23 @@ public class Sparktest {
             ResultSet resultSet = stmt.getResultSet();
 
             while(resultSet.next()){
-                resultSet.getBigDecimal("UnitID");
-                get("/unitids", (req, res) -> resultSet.getBigDecimal("UnitID"));
+                ids.add(resultSet.getBigDecimal("UnitID"));
             }
 
+            get("/getIds","application/json", (request, response) -> {
+                return ids;
+            },new GsonTransformer());
+
+            get("/test", (request, response) -> {
+                //return new ModelAndView(ids, )
+                return "<html><body>Hoi</body></html>";
+            });
+
+            //get("/", (req, res) -> ids);
 
         } catch(Exception e) {
             System.out.println(e.getMessage());
-
-            /*
-            try {
+            /*try {
                 if(null != stmt) {
                     stmt.close();
                 }
