@@ -12,4 +12,6 @@ public class GsonTransformer implements ResponseTransformer {
     public String render(Object model) {
         return gson.toJson(model);
     }
+
+
 }

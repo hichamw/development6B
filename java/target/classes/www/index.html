@@ -85,15 +85,13 @@
       <!--main content start-->
       <section id="main-content">
           <section class="wrapper site-min-height">
-          	<h3><i class="fa fa-angle-right"></i> GIZZZZ</h3>
+          	<h3><i class="fa fa-angle-right"></i> GIZ Dashboard</h3>
           	<div class="row mt">
           		<div class="col-lg-12">
 
-                <div ng-app="myApp" ng-controller="myController">
-                    <ul>
-                        <li ng-repeat="x in names">
-                            {{ x.Name + ', ' + x.Country }}
-                        </li>
+                <div  ng-controller="myController">
+                    <ul ng-repeat="v in mydata.resultObject track by $index">
+                       <li>Unitid: {{ v }}</li>
                     </ul>
                 </div>
           		</div>
@@ -140,8 +138,11 @@
 
       var app = angular.module('myApp', []);
       app.controller('myController', function($scope, $http) {
-          $http.get("http://www.w3schools.com/angular/customers.php")
-                  .then(function(response) {$scope.names = response.data.records;});
+          $http.get("http://localhost:4567/getIds")
+                  .then(function(response) {$scope.mydata = response.data;
+                      console.log($scope.mydata)
+                  });
+
       });
   </script>
 

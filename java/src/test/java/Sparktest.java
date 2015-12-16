@@ -33,7 +33,9 @@ public class Sparktest {
             }
 
             get("/getIds","application/json", (request, response) -> {
-                return ids;
+                AngularResultObject angularResultObject = new AngularResultObject();
+                angularResultObject.setResultObject(ids);
+                return angularResultObject;
             },new GsonTransformer());
 
             get("/test", (request, response) -> {
