@@ -1,12 +1,9 @@
+import spark.ModelAndView;
+import spark.template.freemarker.FreeMarkerEngine;
+
 import java.math.BigDecimal;
 import java.sql.*;
 import java.util.*;
-
-import static spark.Spark.*;
-
-// added dashboard class
-// changed port to 9090
-// added public folder
 
 public class Dashboard {
 
@@ -22,18 +19,36 @@ public class Dashboard {
         }
 
         //spark.Spark.port(8080);
-        spark.Spark.staticFileLocation("/www");
-
-        spark.Spark.get("/dashboard", (request, response) -> {
-            return "index";
-        });
-
-        spark.Spark.get("/dashboard", (request, response) -> {
-            //return new ModelAndView(ids, )
-            return "index";
-        });
+        spark.Spark.staticFileLocation("/public");
 
 
+
+        //pages
+        spark.Spark.get("/", (req, res) -> {
+            Map<String, Object> page = new HashMap<>();
+            page.put("title", "Dashboard");
+            return new ModelAndView(page, "dashboard.ftl");
+        }, new FreeMarkerEngine());
+
+        spark.Spark.get("/dashboard", (req, res) -> {
+            Map<String, Object> page = new HashMap<>();
+            page.put("title", "Dashboard");
+            return new ModelAndView(page, "dashboard.ftl");
+        }, new FreeMarkerEngine());
+
+        spark.Spark.get("/rapporten/overview", (request, response) -> {
+            Map<String, Object> page = new HashMap<>();
+            page.put("title", "Rapporten - overview");
+            return new ModelAndView(page, "rapporten/overview.ftl");
+        }, new FreeMarkerEngine());
+
+        spark.Spark.get("/rapporten/create", (request, response) -> {
+            Map<String, Object> page = new HashMap<>();
+            page.put("title", "Rapporten - create");
+            return new ModelAndView(page, "rapporten/create.ftl");
+        }, new FreeMarkerEngine());
+
+        //data
         spark.Spark.get("/getIds", "application/json", (request, response) -> {
             AngularResultObject angularResultObject = new AngularResultObject();
             angularResultObject.setResultObject(getIds("SELECT UnitID FROM CONNECTIONS"));
