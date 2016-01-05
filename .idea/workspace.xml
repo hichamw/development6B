@@ -2,210 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="866ebe72-eb7b-4367-821a-fe698b21dad0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/dashboard.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/main.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/rapporten/create.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/rapporten/index.ftl" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/css/style-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/css/table-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/css/to-do.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/css/zabuto_calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/font-awesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/blog-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/checkbox-gray.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/friends/fr-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/friends/fr-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/friends/fr-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/friends/fr-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/friends/fr-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/friends/fr-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/friends/fr-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/friends/fr-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/friends/fr-09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/friends/fr-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/friends/fr-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/instagram.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/login-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/lorde.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/mask.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/ny.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/portfolio/port01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/portfolio/port02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/portfolio/port03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/portfolio/port04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/portfolio/port05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/portfolio/port06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/product.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/product.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/profile-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/profile-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/radio-gray.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/ui-danro.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/ui-divya.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/ui-sam.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/ui-sherman.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/ui-zac.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/weather.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/img/zoom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/bootstrap-inputmask/bootstrap-inputmask.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/bootstrap-switch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/calendar-conf-events.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/chart-master/Chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/chartjs-conf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/common-scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/easy-pie-chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/fancybox/jquery.fancybox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/fancybox/jquery.fancybox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/form-component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/fullcalendar/bootstrap-fullcalendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/fullcalendar/fullcalendar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/gritter-conf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/gritter/css/jquery.gritter.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/gritter/css/jquery.gritter0.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/gritter/images/gritter-light.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/gritter/images/gritter-long.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/gritter/images/gritter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/gritter/images/ie-spacer.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/gritter/js/jquery.gritter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/jquery-1.8.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/jquery-easy-pie-chart/jquery.easy-pie-chart.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/jquery-easy-pie-chart/jquery.easy-pie-chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/jquery-ui-1.9.2.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/jquery.backstretch.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/jquery.dcjqaccordion.2.7.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/jquery.nicescroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/jquery.scrollTo.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/jquery.sparkline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/jquery.tagsinput.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/jquery.ui.touch-punch.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/morris-conf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/sparkline-chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/tasks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/js/zabuto_calendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/lineicons/fonts/linecons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/lineicons/fonts/linecons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/lineicons/fonts/linecons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/lineicons/fonts/linecons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/lineicons/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/lineicons/lte-ie7.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/assets/lineicons/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/target/classes/www/index.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/css/bootstrap.css" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/css/style-responsive.css" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/css/style-responsive.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/css/style.css" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/css/table-responsive.css" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/css/table-responsive.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/css/to-do.css" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/css/to-do.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/css/zabuto_calendar.css" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/css/zabuto_calendar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/font-awesome/css/font-awesome.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/font-awesome/fonts/FontAwesome.otf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/blog-bg.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/blog-bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/checkbox-gray.png" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/checkbox-gray.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/friends/fr-01.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/friends/fr-01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/friends/fr-02.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/friends/fr-02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/friends/fr-03.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/friends/fr-03.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/friends/fr-04.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/friends/fr-04.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/friends/fr-05.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/friends/fr-05.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/friends/fr-06.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/friends/fr-06.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/friends/fr-07.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/friends/fr-07.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/friends/fr-08.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/friends/fr-08.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/friends/fr-09.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/friends/fr-09.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/friends/fr-10.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/friends/fr-10.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/friends/fr-11.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/friends/fr-11.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/instagram.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/instagram.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/login-bg.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/login-bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/lorde.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/lorde.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/mask.png" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/mask.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/ny.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/ny.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/portfolio/port01.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/portfolio/port01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/portfolio/port02.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/portfolio/port02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/portfolio/port03.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/portfolio/port03.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/portfolio/port04.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/portfolio/port04.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/portfolio/port05.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/portfolio/port05.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/portfolio/port06.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/portfolio/port06.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/product.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/product.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/product.png" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/product.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/profile-01.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/profile-01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/profile-02.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/profile-02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/radio-gray.png" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/radio-gray.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/ui-danro.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/ui-danro.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/ui-divya.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/ui-divya.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/ui-sam.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/ui-sam.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/ui-sherman.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/ui-sherman.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/ui-zac.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/ui-zac.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/weather.jpg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/weather.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/img/zoom.png" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/img/zoom.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/bootstrap-inputmask/bootstrap-inputmask.min.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/bootstrap-inputmask/bootstrap-inputmask.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/bootstrap-switch.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/bootstrap-switch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/calendar-conf-events.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/calendar-conf-events.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/chart-master/Chart.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/chart-master/Chart.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/chartjs-conf.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/chartjs-conf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/common-scripts.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/common-scripts.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/easy-pie-chart.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/easy-pie-chart.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/fancybox/jquery.fancybox.css" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/fancybox/jquery.fancybox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/fancybox/jquery.fancybox.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/fancybox/jquery.fancybox.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/form-component.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/form-component.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/fullcalendar/bootstrap-fullcalendar.css" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/fullcalendar/bootstrap-fullcalendar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/fullcalendar/fullcalendar.min.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/fullcalendar/fullcalendar.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/gritter-conf.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/gritter-conf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/gritter/css/jquery.gritter.css" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/gritter/css/jquery.gritter.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/gritter/css/jquery.gritter0.css" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/gritter/css/jquery.gritter0.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/gritter/images/gritter-light.png" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/gritter/images/gritter-light.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/gritter/images/gritter-long.png" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/gritter/images/gritter-long.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/gritter/images/gritter.png" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/gritter/images/gritter.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/gritter/images/ie-spacer.gif" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/gritter/images/ie-spacer.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/gritter/js/jquery.gritter.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/gritter/js/jquery.gritter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/jquery-1.8.3.min.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/jquery-1.8.3.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/jquery-easy-pie-chart/jquery.easy-pie-chart.css" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/jquery-easy-pie-chart/jquery.easy-pie-chart.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/jquery-easy-pie-chart/jquery.easy-pie-chart.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/jquery-easy-pie-chart/jquery.easy-pie-chart.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/jquery-ui-1.9.2.custom.min.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/jquery-ui-1.9.2.custom.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/jquery.backstretch.min.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/jquery.backstretch.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/jquery.dcjqaccordion.2.7.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/jquery.dcjqaccordion.2.7.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/jquery.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/jquery.nicescroll.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/jquery.nicescroll.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/jquery.scrollTo.min.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/jquery.scrollTo.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/jquery.sparkline.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/jquery.sparkline.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/jquery.tagsinput.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/jquery.tagsinput.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/jquery.ui.touch-punch.min.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/jquery.ui.touch-punch.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/morris-conf.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/morris-conf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/sparkline-chart.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/sparkline-chart.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/tasks.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/tasks.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/js/zabuto_calendar.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/js/zabuto_calendar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/lineicons/fonts/linecons.eot" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/lineicons/fonts/linecons.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/lineicons/fonts/linecons.svg" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/lineicons/fonts/linecons.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/lineicons/fonts/linecons.ttf" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/lineicons/fonts/linecons.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/lineicons/fonts/linecons.woff" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/lineicons/fonts/linecons.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/lineicons/index.html" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/lineicons/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/lineicons/lte-ie7.js" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/lineicons/lte-ie7.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/resources/www/assets/lineicons/style.css" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/lineicons/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java/src/main/resources/public/assets/css/giz.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/bottom.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/head.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/target/classes/Dashboard.class" afterPath="$PROJECT_DIR$/java/target/classes/Dashboard.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Giz.iml" afterPath="$PROJECT_DIR$/Giz.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/java.iml" afterPath="$PROJECT_DIR$/java/java.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/pom.xml" afterPath="$PROJECT_DIR$/java/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/src/main/java/Dashboard.java" afterPath="$PROJECT_DIR$/java/src/main/java/Dashboard.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/dashboard.ftl" afterPath="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/dashboard.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/main.ftl" afterPath="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/main.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/rapporten/create.ftl" afterPath="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/rapporten/create.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/rapporten/index.ftl" afterPath="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/rapporten/index.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/target/classes/spark/template/freemarker/dashboard.ftl" afterPath="$PROJECT_DIR$/java/target/classes/spark/template/freemarker/dashboard.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/target/classes/spark/template/freemarker/main.ftl" afterPath="$PROJECT_DIR$/java/target/classes/spark/template/freemarker/main.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/target/classes/spark/template/freemarker/rapporten/create.ftl" afterPath="$PROJECT_DIR$/java/target/classes/spark/template/freemarker/rapporten/create.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/target/classes/spark/template/freemarker/rapporten/index.ftl" afterPath="$PROJECT_DIR$/java/target/classes/spark/template/freemarker/rapporten/index.ftl" />
     </list>
     <ignored path="Giz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -239,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/java/src/main/java/Dashboard.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+              <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -247,11 +57,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.ftl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/rapporten/index.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/dashboard.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/main.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5914634">
-              <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
+            <state vertical-scroll-proportion="-2.4727273">
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.ftl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/head.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6200608">
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/rapporten/create.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6153846">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="giz.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/main/resources/public/assets/css/giz.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6153846">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bottom.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/bottom.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -296,11 +166,14 @@
         <option value="$PROJECT_DIR$/java/pom.xml" />
         <option value="$PROJECT_DIR$/java/src/main/java/FreeMarkerExample.java" />
         <option value="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/rapporten.ftl" />
+        <option value="$PROJECT_DIR$/java/src/main/java/Dashboard.java" />
+        <option value="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/bottom.ftl" />
+        <option value="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/main.ftl" />
+        <option value="$PROJECT_DIR$/java/src/main/resources/public/assets/css/giz.css" />
+        <option value="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/rapporten/create.ftl" />
         <option value="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/dashboard.ftl" />
         <option value="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/rapporten/index.ftl" />
-        <option value="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/rapporten/create.ftl" />
-        <option value="$PROJECT_DIR$/java/src/main/java/Dashboard.java" />
-        <option value="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/main.ftl" />
+        <option value="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/head.ftl" />
       </list>
     </option>
   </component>
@@ -320,6 +193,16 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -352,7 +235,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -452,142 +334,6 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freemarker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Giz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="giz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lineicons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Giz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="giz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Giz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="giz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Giz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="giz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -617,6 +363,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -631,6 +378,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="giz&#9;FILE&#9;file://C:/Users/User/OneDrive/sites/giz/java/src/main/resources/public/assets/css/giz.css&#10;head.f&#9;FILE&#9;file://C:/Users/User/OneDrive/sites/giz/java/src/main/resources/spark/template/freemarker/head.ftl&#10;head.&#9;FILE&#9;file://C:/Users/User/OneDrive/sites/giz/java/src/main/resources/spark/template/freemarker/head.ftl&#10;index.f&#9;FILE&#9;file://C:/Users/User/OneDrive/sites/giz/java/src/main/resources/spark/template/freemarker/rapporten/index.ftl&#10;index&#9;FILE&#9;file://C:/Users/User/OneDrive/sites/giz/java/src/main/resources/spark/template/freemarker/rapporten/index.ftl&#10;index.&#9;FILE&#9;file://C:/Users/User/OneDrive/sites/giz/java/src/main/resources/spark/template/freemarker/rapporten/index.ftl" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1369,12 +1117,13 @@
       <workItem from="1449529351223" duration="409000" />
       <workItem from="1449563865102" duration="9074000" />
       <workItem from="1450294049480" duration="6010000" />
-      <workItem from="1451898097339" duration="6755000" />
+      <workItem from="1451898097339" duration="9526000" />
+      <workItem from="1451978605969" duration="4939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43179000" />
+    <option name="totallyTimeSpent" value="50889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1385,9 +1134,9 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20121029" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1415,11 +1164,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20121029" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20121029" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1457,6 +1206,40 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/rapporten/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/dashboard.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/main.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python/CSVMonitoring.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1468,9 +1251,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1450278917774" expanded="true" signature="666:696" placeholder="SELECT UnitI... CONNECTIONS" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1556,9 +1336,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1566,9 +1343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <marker date="1450278917774" expanded="true" signature="666:696" placeholder="SELECT UnitI... CONNECTIONS" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1584,7 +1358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1592,9 +1365,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1602,30 +1372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.692307">
           <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/dashboard.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/rapporten/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="5" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/rapporten/create.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1642,7 +1388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="258" column="0" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1658,7 +1403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1698,7 +1442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1706,7 +1449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1715,7 +1457,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="653" column="0" selection-start-line="653" selection-start-column="0" selection-end-line="653" selection-end-column="0" />
           <folding>
-            <element signature="e#20151#20152#0" expanded="true" />
+            <element signature="e#20151#20152#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1724,12 +1466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#8416#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#8373#8374#0" expanded="false" />
-            <element signature="e#8406#8407#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1738,7 +1474,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding>
-            <element signature="e#2488#2489#0" expanded="true" />
+            <element signature="e#2488#2489#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1962,17 +1698,65 @@
     <entry file="file://$PROJECT_DIR$/java/src/main/java/Dashboard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/bottom.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/main.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5914634">
-          <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
+        <state vertical-scroll-proportion="-2.4727273">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/resources/public/assets/css/giz.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/rapporten/create.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/dashboard.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/rapporten/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/head.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6200608">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
           <folding />
         </state>
       </provider>

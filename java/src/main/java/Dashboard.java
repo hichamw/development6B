@@ -25,21 +25,21 @@ public class Dashboard {
 
         //pages
         spark.Spark.get("/", (req, res) -> {
-            Map<String, Object> page = new HashMap<>();
-            page.put("title", "Dashboard");
-            return new ModelAndView(page, "dashboard.ftl");
+            Map<String, Object> attributes = new HashMap<>();
+            attributes.put("title", "Dashboard");
+            return new ModelAndView(attributes, "dashboard.ftl");
         }, new FreeMarkerEngine());
 
         spark.Spark.get("/dashboard", (req, res) -> {
-            Map<String, Object> page = new HashMap<>();
-            page.put("title", "Dashboard");
-            return new ModelAndView(page, "dashboard.ftl");
+            Map<String, Object> attributes = new HashMap<>();
+            attributes.put("title", "Dashboard");
+            return new ModelAndView(attributes, "dashboard.ftl");
         }, new FreeMarkerEngine());
 
-        spark.Spark.get("/rapporten/overview", (request, response) -> {
-            Map<String, Object> page = new HashMap<>();
-            page.put("title", "Rapporten - overview");
-            return new ModelAndView(page, "rapporten/overview.ftl");
+        spark.Spark.get("/rapporten/", (request, response) -> {
+            Map<String, Object> attributes = new HashMap<>();
+            attributes.put("title", "Rapporten - overview");
+            return new ModelAndView(attributes, "rapporten/index.ftl");
         }, new FreeMarkerEngine());
 
         spark.Spark.get("/rapporten/create", (request, response) -> {
@@ -49,12 +49,11 @@ public class Dashboard {
         }, new FreeMarkerEngine());
 
         //data
-        spark.Spark.get("/getIds", "application/json", (request, response) -> {
+        spark.Spark.get("/api/units", "application/json", (request, response) -> {
             AngularResultObject angularResultObject = new AngularResultObject();
-            angularResultObject.setResultObject(getIds("SELECT UnitID FROM CONNECTIONS"));
+            angularResultObject.setResultObject(getIds("SELECT UnitID FROM CONNECTIONS GROUP BY UnitID"));
             return angularResultObject;
         }, new GsonTransformer());
-
     }
 
     private static ArrayList<BigDecimal> getIds(String query) {

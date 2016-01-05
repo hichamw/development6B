@@ -69,7 +69,7 @@
                         <span>Rapporten</span>
                     </a>
                     <ul class="sub">
-                        <li><a  href="/rapporten/overview">Overzicht</a></li>
+                        <li><a  href="/rapporten/">Overzicht</a></li>
                         <li><a  href="/rapporten/create">Aanmaken</a></li>
                     </ul>
                 </li>
@@ -91,9 +91,12 @@
                 <div class="col-lg-12">
 
                     <div  ng-controller="myController">
+                        <h3>Voertuigen ({{ mydata.resultObject.length }})</h3>
                         <ul ng-repeat="v in mydata.resultObject track by $index">
-                            <li>Unitid: {{ v }}</li>
+                            <li>UnitID: {{ v }}</li>
                         </ul>
+
+
                     </div>
                 </div>
             </div>
@@ -139,7 +142,7 @@
 
     var app = angular.module('myApp', []);
     app.controller('myController', function($scope, $http) {
-        $http.get("http://localhost:4567/getIds")
+        $http.get("http://localhost:4567/api/units")
                 .then(function(response) {$scope.mydata = response.data;
                     console.log($scope.mydata)
                 });
