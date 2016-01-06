@@ -85,14 +85,22 @@
       <!--main content start-->
       <section id="main-content">
           <section class="wrapper site-min-height">
-          	<h3><i class="fa fa-angle-right"></i> GIZ Dashboard</h3>
+          	<h3><i class="fa fa-angle-right"></i> Dashboard</h3>
           	<div class="row mt">
           		<div class="col-lg-12">
 
                 <div  ng-controller="myController">
-                    <ul ng-repeat="v in mydata.resultObject track by $index">
-                       <li>Unitid: {{ v }}</li>
-                    </ul>
+                    <table class="table table-striped">
+                        <tr>
+                            <td><b>Voertuig Nr</b></td>
+                            <td><b>Connections</b></td>
+                        </tr>
+                        <tr ng-repeat="x in mytotal.resultObject">
+                            <td>{{ x.unitId }}</td>
+                            <td>{{ x.connections }}</td>
+                        </tr>
+                    </table>
+
                 </div>
           		</div>
           	</div>
@@ -141,6 +149,10 @@
           $http.get("http://localhost:4567/getIds")
                   .then(function(response) {$scope.mydata = response.data;
                       console.log($scope.mydata)
+                  });
+          $http.get("http://localhost:4567/getTotal")
+                  .then(function(response) {$scope.mytotal = response.data;
+                      console.log($scope.mytotal)
                   });
 
       });

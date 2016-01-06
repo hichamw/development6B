@@ -4,6 +4,7 @@ import spark.*;
 import java.math.BigDecimal;
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class Sparktest {
@@ -17,19 +18,24 @@ public class Sparktest {
         staticFileLocation("/www");
 
         ArrayList<BigDecimal> ids = new ArrayList<BigDecimal>();
-        Connection conn;
+        ArrayList<Integer> total = new ArrayList<Integer>();
+        ArrayList<AngularConnectionsResultObject> connectionsList = new ArrayList<AngularConnectionsResultObject>();
         Statement stmt;
+        Connection conn;
 
         try {
             conn = DriverManager.getConnection(DB_URL, USER, PASS);
 
             stmt = conn.createStatement();
-            String query = "SELECT UnitID FROM CONNECTIONS";
+            String query = "SELECT UnitID, COUNT(*) FROM CONNECTIONS WHERE Value = 1 GROUP BY UnitID";
             stmt.execute(query);
             ResultSet resultSet = stmt.getResultSet();
 
             while(resultSet.next()){
                 ids.add(resultSet.getBigDecimal("UnitID"));
+                total.add(resultSet.getInt("COUNT(*)"));
+                connectionsList.add(new AngularConnectionsResultObject(resultSet.getBigDecimal("UnitID"),resultSet.getInt("COUNT(*)")));
+                //System.out.println(ids);
             }
 
             get("/getIds","application/json", (request, response) -> {
@@ -38,12 +44,13 @@ public class Sparktest {
                 return angularResultObject;
             },new GsonTransformer());
 
-            get("/test", (request, response) -> {
-                //return new ModelAndView(ids, )
-                return "<html><body>Hoi</body></html>";
-            });
+            get("/getTotal","application/json", (request, response) -> {
+                AngularResultObject angularResultObject = new AngularResultObject();
+                angularResultObject.setResultObject(connectionsList);
+                return angularResultObject;
+            },new GsonTransformer());
 
-            //get("/", (req, res) -> ids);
+
 
         } catch(Exception e) {
             System.out.println(e.getMessage());
