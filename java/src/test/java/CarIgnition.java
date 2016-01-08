@@ -7,57 +7,50 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class Sparktest {
+public class CarIgnition {
 
     static final String DB_URL = "jdbc:mysql://localhost/CSV";
     static final String USER = "root";
     static final String PASS = "root";
 
 
+
     public static void main(String[] args) {
 
         staticFileLocation("/www");
 
-        CarIgnition carIgnition = new CarIgnition();
-        ArrayList<BigDecimal> ids = new ArrayList<BigDecimal>();
-        ArrayList<Integer> total = new ArrayList<Integer>();
-        ArrayList<AngularConnectionsResultObject> connectionsList = new ArrayList<AngularConnectionsResultObject>();
-
+        ArrayList<BigDecimal> unitids = new ArrayList<BigDecimal>();
+        ArrayList<Integer> ignitions = new ArrayList<Integer>();
+        ArrayList<AngularConnectionsResultObject> connectionsList2 = new ArrayList<AngularConnectionsResultObject>();
         Statement stmt;
         Connection conn;
 
         try {
             conn = DriverManager.getConnection(DB_URL, USER, PASS);
-
             stmt = conn.createStatement();
-            String query = "SELECT UnitID, COUNT(*) FROM CONNECTIONS WHERE Value = 1 GROUP BY UnitID";
+            String query = "SELECT UnitId , COUNT(*) FROM `EVENTS` WHERE Port = 'Ignition' AND Value =1 GROUP BY UnitId";
             stmt.execute(query);
             ResultSet resultSet = stmt.getResultSet();
 
             while(resultSet.next()){
-                ids.add(resultSet.getBigDecimal("UnitID"));
-                total.add(resultSet.getInt("COUNT(*)"));
-                connectionsList.add(new AngularConnectionsResultObject(resultSet.getBigDecimal("UnitID"),resultSet.getInt("COUNT(*)")));
+                unitids.add(resultSet.getBigDecimal("UnitID"));
+                ignitions.add(resultSet.getInt("COUNT(*)"));
+                connectionsList2.add(new AngularConnectionsResultObject(resultSet.getBigDecimal("UnitID"),resultSet.getInt("COUNT(*)")));
                 //System.out.println(ids);
             }
 
-            get("/getIds","application/json", (request, response) -> {
+            get("/getUnitIds","application/json", (request, response) -> {
                 AngularResultObject angularResultObject = new AngularResultObject();
-                angularResultObject.setResultObject(ids);
-                return angularResultObject;
-            },new GsonTransformer());
-
-            get("/getTotal","application/json", (request, response) -> {
-                AngularResultObject angularResultObject = new AngularResultObject();
-                angularResultObject.setResultObject(connectionsList);
+                angularResultObject.setResultObject(unitids);
                 return angularResultObject;
             },new GsonTransformer());
 
             get("/getIgnitions","application/json", (request, response) -> {
                 AngularResultObject angularResultObject = new AngularResultObject();
-                //angularResultObject.setResultObject(CarIgnition.connectionList2);
+                angularResultObject.setResultObject(connectionsList2);
                 return angularResultObject;
             },new GsonTransformer());
+
 
 
 
@@ -74,5 +67,13 @@ public class Sparktest {
                 sqlException.printStackTrace();
             }*/
         }
+
+
+
     }
+
+
+
+
+
 }
