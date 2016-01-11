@@ -18,7 +18,7 @@ public class Sparktest {
 
         staticFileLocation("/www");
 
-        CarIgnition carIgnition = new CarIgnition();
+        CarIgnition carignit = new CarIgnition();
         ArrayList<BigDecimal> ids = new ArrayList<BigDecimal>();
         ArrayList<Integer> total = new ArrayList<Integer>();
         ArrayList<AngularConnectionsResultObject> connectionsList = new ArrayList<AngularConnectionsResultObject>();
@@ -55,7 +55,7 @@ public class Sparktest {
 
             get("/getIgnitions","application/json", (request, response) -> {
                 AngularResultObject angularResultObject = new AngularResultObject();
-                //angularResultObject.setResultObject(CarIgnition.connectionList2);
+                angularResultObject.setResultObject(carignit.getCars());
                 return angularResultObject;
             },new GsonTransformer());
 

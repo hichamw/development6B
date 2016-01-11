@@ -14,17 +14,13 @@ public class CarIgnition {
     static final String PASS = "root";
 
 
+    ArrayList<BigDecimal> unitids = new ArrayList<BigDecimal>();
+    ArrayList<Integer> ignitions = new ArrayList<Integer>();
+    ArrayList<AngularConnectionsResultObject> connectionsList2 = new ArrayList<AngularConnectionsResultObject>();
+    Connection conn;
+    Statement stmt;
 
-    public static void main(String[] args) {
-
-        staticFileLocation("/www");
-
-        ArrayList<BigDecimal> unitids = new ArrayList<BigDecimal>();
-        ArrayList<Integer> ignitions = new ArrayList<Integer>();
-        ArrayList<AngularConnectionsResultObject> connectionsList2 = new ArrayList<AngularConnectionsResultObject>();
-        Statement stmt;
-        Connection conn;
-
+    public ArrayList<AngularConnectionsResultObject> getCars() {
         try {
             conn = DriverManager.getConnection(DB_URL, USER, PASS);
             stmt = conn.createStatement();
@@ -32,48 +28,17 @@ public class CarIgnition {
             stmt.execute(query);
             ResultSet resultSet = stmt.getResultSet();
 
-            while(resultSet.next()){
+            while (resultSet.next()) {
                 unitids.add(resultSet.getBigDecimal("UnitID"));
                 ignitions.add(resultSet.getInt("COUNT(*)"));
-                connectionsList2.add(new AngularConnectionsResultObject(resultSet.getBigDecimal("UnitID"),resultSet.getInt("COUNT(*)")));
+                connectionsList2.add(new AngularConnectionsResultObject(resultSet.getBigDecimal("UnitID"), resultSet.getInt("COUNT(*)")));
                 //System.out.println(ids);
             }
-
-            get("/getUnitIds","application/json", (request, response) -> {
-                AngularResultObject angularResultObject = new AngularResultObject();
-                angularResultObject.setResultObject(unitids);
-                return angularResultObject;
-            },new GsonTransformer());
-
-            get("/getIgnitions","application/json", (request, response) -> {
-                AngularResultObject angularResultObject = new AngularResultObject();
-                angularResultObject.setResultObject(connectionsList2);
-                return angularResultObject;
-            },new GsonTransformer());
-
-
-
-
-        } catch(Exception e) {
-            System.out.println(e.getMessage());
-            /*try {
-                if(null != stmt) {
-                    stmt.close();
-                }
-                if(null != conn) {
-                    conn.close();
-                }
-            } catch (SQLException sqlException) {
-                sqlException.printStackTrace();
-            }*/
+        } catch (SQLException sqlException) {
+            sqlException.printStackTrace();
         }
 
-
-
+        return connectionsList2;
     }
-
-
-
-
 
 }
