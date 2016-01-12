@@ -19,6 +19,8 @@ public class Sparktest {
         staticFileLocation("/www");
 
         CarIgnition carignit = new CarIgnition();
+        TireReplace tirereplace = new TireReplace();
+        MaxTemp maxtemp = new MaxTemp();
         ArrayList<BigDecimal> ids = new ArrayList<BigDecimal>();
         ArrayList<Integer> total = new ArrayList<Integer>();
         ArrayList<AngularConnectionsResultObject> connectionsList = new ArrayList<AngularConnectionsResultObject>();
@@ -59,6 +61,17 @@ public class Sparktest {
                 return angularResultObject;
             },new GsonTransformer());
 
+            get("/getSpeeds","application/json", (request, response) -> {
+                AngularResultObject angularResultObject = new AngularResultObject();
+                angularResultObject.setResultObject(tirereplace.getSpeeds());
+                return angularResultObject;
+            },new GsonTransformer());
+
+            get("/getTemps","application/json", (request, response) -> {
+                AngularResultObject angularResultObject = new AngularResultObject();
+                angularResultObject.setResultObject(maxtemp.getTemp());
+                return angularResultObject;
+            },new GsonTransformer());
 
 
         } catch(Exception e) {
