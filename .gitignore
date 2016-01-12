@@ -29,3 +29,4 @@
 ## File-based project format:
 *.ipr
 *.iws
+.idea/workspace.xml

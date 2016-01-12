@@ -20,9 +20,7 @@ public class Dashboard {
 
         //spark.Spark.port(8080);
         spark.Spark.staticFileLocation("/public");
-
-
-
+        
         //pages
         spark.Spark.get("/", (req, res) -> {
             Map<String, Object> attributes = new HashMap<>();

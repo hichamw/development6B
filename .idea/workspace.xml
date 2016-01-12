@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="866ebe72-eb7b-4367-821a-fe698b21dad0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java/src/main/java/DBInteraction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java/src/main/java/Vehicles.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/src/main/java/Dashboard.java" afterPath="$PROJECT_DIR$/java/src/main/java/Dashboard.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/bottom.ftl" afterPath="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/bottom.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/dashboard.ftl" afterPath="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/dashboard.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/head.ftl" afterPath="$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/head.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/target/classes/spark/template/freemarker/bottom.ftl" afterPath="$PROJECT_DIR$/java/target/classes/spark/template/freemarker/bottom.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/target/classes/spark/template/freemarker/dashboard.ftl" afterPath="$PROJECT_DIR$/java/target/classes/spark/template/freemarker/dashboard.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/target/classes/spark/template/freemarker/head.ftl" afterPath="$PROJECT_DIR$/java/target/classes/spark/template/freemarker/head.ftl" />
     </list>
     <ignored path="Giz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Dashboard.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Dashboard.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/main/java/Dashboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.044155844">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,7 +55,7 @@
       <file leaf-file-name="index.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/rapporten/index.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923">
+            <state vertical-scroll-proportion="0.0">
               <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding />
             </state>
@@ -58,7 +65,7 @@
       <file leaf-file-name="dashboard.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/dashboard.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769">
+            <state vertical-scroll-proportion="0.0">
               <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
               <folding />
             </state>
@@ -68,7 +75,7 @@
       <file leaf-file-name="main.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/main.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.4727273">
+            <state vertical-scroll-proportion="0.0">
               <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
               <folding />
             </state>
@@ -78,17 +85,17 @@
       <file leaf-file-name="head.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/head.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.709091">
-              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11484594">
+            <state vertical-scroll-proportion="-3.5925925">
               <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding />
             </state>
@@ -98,7 +105,7 @@
       <file leaf-file-name="create.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/rapporten/create.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6153846">
+            <state vertical-scroll-proportion="0.0">
               <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="14" />
               <folding />
             </state>
@@ -108,7 +115,7 @@
       <file leaf-file-name="giz.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/main/resources/public/assets/css/giz.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6153846">
+            <state vertical-scroll-proportion="0.0">
               <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
               <folding />
             </state>
@@ -234,8 +241,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -362,7 +370,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1118,14 +1125,15 @@
       <workItem from="1450294049480" duration="6010000" />
       <workItem from="1451898097339" duration="9526000" />
       <workItem from="1451978605969" duration="5191000" />
+      <workItem from="1452587513588" duration="213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51141000" />
+    <option name="totallyTimeSpent" value="51354000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1135,7 +1143,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3251634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20121029" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1379,7 +1387,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1394,7 +1401,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1409,7 +1415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1417,7 +1422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="220" column="0" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1425,7 +1429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1433,7 +1436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1455,9 +1457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="653" column="0" selection-start-line="653" selection-start-column="0" selection-end-line="653" selection-end-column="0" />
-          <folding>
-            <element signature="e#20151#20152#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1472,9 +1471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="e#2488#2489#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1482,12 +1478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#4973#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3545#3546#0" expanded="false" />
-            <element signature="e#3593#3594#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1495,42 +1485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="244" column="0" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#6874#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2315#2316#0" expanded="false" />
-            <element signature="e#2354#2355#0" expanded="false" />
-            <element signature="e#2397#2398#0" expanded="false" />
-            <element signature="e#2436#2437#0" expanded="false" />
-            <element signature="e#2499#2500#0" expanded="false" />
-            <element signature="e#2549#2550#0" expanded="false" />
-            <element signature="e#2593#2594#0" expanded="false" />
-            <element signature="e#2625#2626#0" expanded="false" />
-            <element signature="e#2682#2683#0" expanded="false" />
-            <element signature="e#2710#2711#0" expanded="false" />
-            <element signature="e#3904#3905#0" expanded="false" />
-            <element signature="e#3993#3994#0" expanded="false" />
-            <element signature="e#5236#5237#0" expanded="false" />
-            <element signature="e#5263#5264#0" expanded="false" />
-            <element signature="e#5739#5740#0" expanded="false" />
-            <element signature="e#5771#5772#0" expanded="false" />
-            <element signature="e#5816#5817#0" expanded="false" />
-            <element signature="e#5853#5854#0" expanded="false" />
-            <element signature="e#5905#5906#0" expanded="false" />
-            <element signature="e#5930#5931#0" expanded="false" />
-            <element signature="e#5983#5984#0" expanded="false" />
-            <element signature="e#6008#6009#0" expanded="false" />
-            <element signature="e#6058#6059#0" expanded="false" />
-            <element signature="e#6083#6084#0" expanded="false" />
-            <element signature="e#6134#6135#0" expanded="false" />
-            <element signature="e#6159#6160#0" expanded="false" />
-            <element signature="e#6218#6219#0" expanded="false" />
-            <element signature="e#6249#6250#0" expanded="false" />
-            <element signature="e#6299#6300#0" expanded="false" />
-            <element signature="e#6384#6385#0" expanded="false" />
-            <element signature="e#6620#6621#0" expanded="false" />
-            <element signature="e#6669#6670#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1538,62 +1492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="241" column="0" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26015#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3790#3791#0" expanded="false" />
-            <element signature="e#3838#3839#0" expanded="false" />
-            <element signature="e#4639#4640#0" expanded="false" />
-            <element signature="e#4669#4670#0" expanded="false" />
-            <element signature="e#5195#5196#0" expanded="false" />
-            <element signature="e#5226#5227#0" expanded="false" />
-            <element signature="e#5263#5264#0" expanded="false" />
-            <element signature="e#5308#5309#0" expanded="false" />
-            <element signature="e#5351#5352#0" expanded="false" />
-            <element signature="e#5384#5385#0" expanded="false" />
-            <element signature="e#5431#5432#0" expanded="false" />
-            <element signature="e#5462#5463#0" expanded="false" />
-            <element signature="e#5503#5504#0" expanded="false" />
-            <element signature="e#5533#5534#0" expanded="false" />
-            <element signature="e#5580#5581#0" expanded="false" />
-            <element signature="e#5613#5614#0" expanded="false" />
-            <element signature="e#5683#5684#0" expanded="false" />
-            <element signature="e#5749#5750#0" expanded="false" />
-            <element signature="e#5801#5802#0" expanded="false" />
-            <element signature="e#5854#5855#0" expanded="false" />
-            <element signature="e#5907#5908#0" expanded="false" />
-            <element signature="e#5960#5961#0" expanded="false" />
-            <element signature="e#6842#6843#0" expanded="false" />
-            <element signature="e#6899#6900#0" expanded="false" />
-            <element signature="e#15913#15914#0" expanded="false" />
-            <element signature="e#15941#15942#0" expanded="false" />
-            <element signature="e#16701#16702#0" expanded="false" />
-            <element signature="e#16738#16739#0" expanded="false" />
-            <element signature="e#17187#17188#0" expanded="false" />
-            <element signature="e#17222#17223#0" expanded="false" />
-            <element signature="e#17354#17355#0" expanded="false" />
-            <element signature="e#17394#17395#0" expanded="false" />
-            <element signature="e#17463#17464#0" expanded="false" />
-            <element signature="e#17503#17504#0" expanded="false" />
-            <element signature="e#18560#18561#0" expanded="false" />
-            <element signature="e#18595#18596#0" expanded="false" />
-            <element signature="e#18663#18664#0" expanded="false" />
-            <element signature="e#18719#18720#0" expanded="false" />
-            <element signature="e#24816#24817#0" expanded="false" />
-            <element signature="e#24911#24912#0" expanded="false" />
-            <element signature="e#25250#25251#0" expanded="false" />
-            <element signature="e#25278#25279#0" expanded="false" />
-            <element signature="e#25482#25483#0" expanded="false" />
-            <element signature="e#25533#25534#0" expanded="false" />
-            <element signature="e#25582#25583#0" expanded="false" />
-            <element signature="e#25646#25647#0" expanded="false" />
-            <element signature="e#25698#25699#0" expanded="false" />
-            <element signature="e#25765#25766#0" expanded="false" />
-            <element signature="e#25827#25828#0" expanded="false" />
-            <element signature="e#25874#25875#0" expanded="false" />
-            <element signature="e#25924#25925#0" expanded="false" />
-            <element signature="e#26011#26012#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1601,80 +1499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="301" column="0" selection-start-line="301" selection-start-column="0" selection-end-line="301" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25868#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#4299#4300#0" expanded="false" />
-            <element signature="e#4342#4343#0" expanded="false" />
-            <element signature="e#4390#4391#0" expanded="false" />
-            <element signature="e#4433#4434#0" expanded="false" />
-            <element signature="e#4479#4480#0" expanded="false" />
-            <element signature="e#4508#4509#0" expanded="false" />
-            <element signature="e#4549#4550#0" expanded="false" />
-            <element signature="e#4580#4581#0" expanded="false" />
-            <element signature="e#4701#4702#0" expanded="false" />
-            <element signature="e#4739#4740#0" expanded="false" />
-            <element signature="e#4782#4783#0" expanded="false" />
-            <element signature="e#4815#4816#0" expanded="false" />
-            <element signature="e#4866#4867#0" expanded="false" />
-            <element signature="e#4899#4900#0" expanded="false" />
-            <element signature="e#4944#4945#0" expanded="false" />
-            <element signature="e#4978#4979#0" expanded="false" />
-            <element signature="e#5038#5039#0" expanded="false" />
-            <element signature="e#5078#5079#0" expanded="false" />
-            <element signature="e#5490#5491#0" expanded="false" />
-            <element signature="e#5531#5532#0" expanded="false" />
-            <element signature="e#5838#5839#0" expanded="false" />
-            <element signature="e#5887#5888#0" expanded="false" />
-            <element signature="e#6219#6220#0" expanded="false" />
-            <element signature="e#6270#6271#0" expanded="false" />
-            <element signature="e#6323#6324#0" expanded="false" />
-            <element signature="e#6376#6377#0" expanded="false" />
-            <element signature="e#6435#6436#0" expanded="false" />
-            <element signature="e#6472#6473#0" expanded="false" />
-            <element signature="e#6542#6543#0" expanded="false" />
-            <element signature="e#6613#6614#0" expanded="false" />
-            <element signature="e#6650#6651#0" expanded="false" />
-            <element signature="e#6695#6696#0" expanded="false" />
-            <element signature="e#6734#6735#0" expanded="false" />
-            <element signature="e#6765#6766#0" expanded="false" />
-            <element signature="e#6806#6807#0" expanded="false" />
-            <element signature="e#6838#6839#0" expanded="false" />
-            <element signature="e#6879#6880#0" expanded="false" />
-            <element signature="e#6911#6912#0" expanded="false" />
-            <element signature="e#6965#6966#0" expanded="false" />
-            <element signature="e#7015#7016#0" expanded="false" />
-            <element signature="e#7070#7071#0" expanded="false" />
-            <element signature="e#7121#7122#0" expanded="false" />
-            <element signature="e#8001#8002#0" expanded="false" />
-            <element signature="e#8025#8026#0" expanded="false" />
-            <element signature="e#18099#18100#0" expanded="false" />
-            <element signature="e#18127#18128#0" expanded="false" />
-            <element signature="e#18180#18181#0" expanded="false" />
-            <element signature="e#18208#18209#0" expanded="false" />
-            <element signature="e#19635#19636#0" expanded="false" />
-            <element signature="e#19692#19693#0" expanded="false" />
-            <element signature="e#22503#22504#0" expanded="false" />
-            <element signature="e#22542#22543#0" expanded="false" />
-            <element signature="e#23132#23133#0" expanded="false" />
-            <element signature="e#23159#23160#0" expanded="false" />
-            <element signature="e#23208#23209#0" expanded="false" />
-            <element signature="e#23262#23263#0" expanded="false" />
-            <element signature="e#23305#23306#0" expanded="false" />
-            <element signature="e#23353#23354#0" expanded="false" />
-            <element signature="e#23555#23556#0" expanded="false" />
-            <element signature="e#23618#23619#0" expanded="false" />
-            <element signature="e#23942#23943#0" expanded="false" />
-            <element signature="e#23983#23984#0" expanded="false" />
-            <element signature="e#24146#24147#0" expanded="false" />
-            <element signature="e#24190#24191#0" expanded="false" />
-            <element signature="e#24266#24267#0" expanded="false" />
-            <element signature="e#24322#24323#0" expanded="false" />
-            <element signature="e#24391#24392#0" expanded="false" />
-            <element signature="e#24436#24437#0" expanded="false" />
-            <element signature="e#25579#25580#0" expanded="false" />
-            <element signature="e#25618#25619#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1682,7 +1506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="516" column="0" selection-start-line="516" selection-start-column="0" selection-end-line="516" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1690,17 +1513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="744" column="0" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/Dashboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1714,7 +1526,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/main.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4727273">
+        <state vertical-scroll-proportion="0.0">
           <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
           <folding />
         </state>
@@ -1722,7 +1534,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/main/resources/public/assets/css/giz.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846">
+        <state vertical-scroll-proportion="0.0">
           <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding />
         </state>
@@ -1730,7 +1542,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/rapporten/create.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846">
+        <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="14" />
           <folding />
         </state>
@@ -1738,7 +1550,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/dashboard.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
+        <state vertical-scroll-proportion="0.0">
           <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding />
         </state>
@@ -1746,7 +1558,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/rapporten/index.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding />
         </state>
@@ -1754,17 +1566,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/main/resources/spark/template/freemarker/head.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.709091">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11484594">
+        <state vertical-scroll-proportion="-3.5925925">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.044155844">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

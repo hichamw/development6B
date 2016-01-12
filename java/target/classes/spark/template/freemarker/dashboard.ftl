@@ -9,14 +9,12 @@
         </div>
         <div class="row mt">
             <div class="col-lg-12">
-
+                <h1>Welkom bij Giz!</h1>
                 <div  ng-controller="myController">
                     <h3>Voertuigen ({{ mydata.resultObject.length }})</h3>
-                    <ul ng-repeat="v in mydata.resultObject track by $index">
-                        <li>UnitID: {{ v }}</li>
-                    </ul>
-
-
+                </div>
+                <div ng-controller="kilometerstandController">
+                    <h3>Kilometerstand ({{ kilometerstand.resultObject }})</h3>
                 </div>
             </div>
         </div>

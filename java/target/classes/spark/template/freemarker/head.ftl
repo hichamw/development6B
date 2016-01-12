@@ -28,36 +28,26 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 </head>
 <body ng-app="myApp">
-
 <section id="container" >
     <header class="header black-bg">
         <a href="/dashboard" class="logo"><b>Giz</b></a>
     </header>
     <aside>
         <div id="sidebar"  class="nav-collapse ">
-            <!-- sidebar menu start-->
             <ul class="sidebar-menu" id="nav-accordion">
-
-
                 <li class="mt">
                     <a href="/dashboard">
                         <i class="fa fa-dashboard"></i>
                         <span>Dashboard</span>
                     </a>
                 </li>
-
-                <li class="sub-menu">
+                <li class="mt">
                     <a href="/rapporten/" >
                         <i class=" fa fa-bar-chart-o"></i>
                         <span>Rapporten</span>
                     </a>
-                    <ul class="sub">
-                        <li><a  href="/rapporten/create">Aanmaken</a></li>
-                    </ul>
                 </li>
-
             </ul>
-            <!-- sidebar menu end-->
         </div>
     </aside>
-    <!--sidebar end-->
+</section>
