@@ -1,6 +1,6 @@
 import java.sql.*;
-        import java.text.*;
-        import java.util.*;
+import java.text.*;
+import java.util.*;
 
 
 /**
@@ -61,19 +61,13 @@ public class Uptime {
             UniqueDays.add(sdf.format(DateList.get(i)));
         }
 
-        int counterTest = 0;
-        System.out.println(DateList.size());
-        System.out.println(DateList);
-        System.out.println(IgnitionList);
-        for (int i = 0; i< UniqueDays.size(); i++) {
-            for (int x = 0; x < DateList.size(); x++) {
-                for (int y=0;y<IgnitionList.size();y++) {
-                    if (sdf.format(DateList.get(x)).equals(sdf.format(DateList.get(x + y))) && IgnitionList.get(x + y) == 0) {
-                        result += (DateList.get(x + y) - DateList.get(x)) / 1000;
-                    }
+        for (int x = 0; x < DateList.size(); x++) {
+            for (int y = 0; y < IgnitionList.size(); y++) {
+                if (sdf.format(DateList.get(x)).equals(sdf.format(DateList.get(x + y))) && IgnitionList.get(x + y) == 0 ) {
+                    result += (DateList.get(x + y) - DateList.get(x)) / 1000;
                 }
-                break;
             }
+            break;
         }
 
         double percentageOfDay =  (result/(SECONDS_IN_DAY* UniqueDays.size()))*100;
