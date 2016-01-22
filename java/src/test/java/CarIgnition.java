@@ -1,4 +1,6 @@
 import static spark.Spark.*;
+
+import org.junit.runner.Result;
 import spark.*;
 
 import java.math.BigDecimal;
@@ -6,6 +8,9 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+
+import org.junit.Test;
+import org.junit.Assert;
 
 public class CarIgnition {
 
@@ -40,6 +45,12 @@ public class CarIgnition {
         }
 
         return connectionsList2;
+    }
+
+    @Test
+    public void TestUnits(){
+        System.out.println(getCars().get(0));
+        Assert.assertNotSame(getCars().get(0), "AngularConnectionsResultObject@3d04a311");
     }
 
 }

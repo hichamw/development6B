@@ -21,6 +21,7 @@ public class Sparktest {
         CarIgnition carignit = new CarIgnition();
         TireReplace tirereplace = new TireReplace();
         MaxTemp maxtemp = new MaxTemp();
+        Uptime uptime = new Uptime();
         ArrayList<BigDecimal> ids = new ArrayList<BigDecimal>();
         ArrayList<Integer> total = new ArrayList<Integer>();
         ArrayList<AngularConnectionsResultObject> connectionsList = new ArrayList<AngularConnectionsResultObject>();
@@ -70,6 +71,12 @@ public class Sparktest {
             get("/getTemps","application/json", (request, response) -> {
                 AngularResultObject angularResultObject = new AngularResultObject();
                 angularResultObject.setResultObject(maxtemp.getTemp());
+                return angularResultObject;
+            },new GsonTransformer());
+
+            get("/getUptime","application/json", (request, response) -> {
+                AngularResultObject angularResultObject = new AngularResultObject();
+                angularResultObject.setResultObject(uptime.getUptime());
                 return angularResultObject;
             },new GsonTransformer());
 
