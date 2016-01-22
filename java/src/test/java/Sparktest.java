@@ -28,6 +28,7 @@ public class Sparktest {
             stmt.execute(query);
             ResultSet resultSet = stmt.getResultSet();
             //testcomment
+            //testcomment2
             while(resultSet.next()){
                 ids.add(resultSet.getBigDecimal("UnitID"));
             }
