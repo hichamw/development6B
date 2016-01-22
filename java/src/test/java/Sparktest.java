@@ -27,7 +27,6 @@ public class Sparktest {
             String query = "SELECT UnitID FROM CONNECTIONS";
             stmt.execute(query);
             ResultSet resultSet = stmt.getResultSet();
-            //testcomment
             while(resultSet.next()){
                 ids.add(resultSet.getBigDecimal("UnitID"));
             }
