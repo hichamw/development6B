@@ -1,2 +1,0 @@
-# giz
-schoolopdracht
