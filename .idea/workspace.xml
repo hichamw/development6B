@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeac3426-1094-42af-bd09-d3dcccfe6cf8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Addition.java" afterPath="$PROJECT_DIR$/src/main/java/Addition.java" />
     </list>
     <ignored path="development6B.iws" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="Addition.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Addition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.094866075">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.1328125">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding>
                 <element signature="e#114#115#0" expanded="true" />
                 <element signature="e#140#141#0" expanded="true" />
@@ -698,7 +697,7 @@
       <workItem from="1461235328608" duration="61000" />
       <workItem from="1461235476834" duration="1366000" />
       <workItem from="1461241192838" duration="813000" />
-      <workItem from="1461260052300" duration="226000" />
+      <workItem from="1461260052300" duration="623000" />
     </task>
     <servers />
   </component>
@@ -714,7 +713,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2998000" />
+    <option name="totallyTimeSpent" value="3395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -888,8 +887,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Addition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.094866075">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.1328125">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
             <element signature="e#114#115#0" expanded="true" />
             <element signature="e#140#141#0" expanded="true" />
